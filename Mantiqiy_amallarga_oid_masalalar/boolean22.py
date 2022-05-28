@@ -1,10 +1,9 @@
 # Boolean 22 masala
 
-a = int(input(" A sonini kiriting = "))
-b = int(input(" B sonini kiriting = "))
-c = int(input(" C sonini kiriting = "))
+a = int(input(" Uch xonali sonni kiriting = "))
 
-# Sonlarni tekshiramiz kiritilayotgan kamayish tartibidagini  aniqlaymiz
-osish_tartibi = ( a > b > c )
-# True chiqsa kamayish tartibida False kamayish tartibida emas
+# Sonning raqamlari o'sish tartibida ekanligini  aniqlaymiz
+osish_tartibi = a // 100 < a % 100 // 10 and  a % 100 // 10 < a % 10
+
+# True chiqsa o'sish tartibida False o'sish tartibida emas
 print(osish_tartibi)
