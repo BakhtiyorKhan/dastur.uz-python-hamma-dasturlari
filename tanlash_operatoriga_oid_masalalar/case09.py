@@ -1,4 +1,4 @@
-# Case 8 masalasi
+# Case 9 masalasi
 
 kun = input(" Kunni kiriting = ")
 oy = input(" Oyni kiriting = ")
@@ -19,4 +19,4 @@ oy_lug = {
     '12': "Dekabr",
 }
 
-print(f" {kun}-{oy_lug[oy]}")
+print(f" {int(kun)+1}-{oy_lug[oy]}")
