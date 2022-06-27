@@ -1,4 +1,4 @@
-# While 25 masala
+# While 26 masala
 
 n = int(input(" n = "))
 
@@ -7,9 +7,9 @@ f1 = 1
 f2 = 1
 f = 1
 
-while f <= n:
+while f < n:
     f = f1 + f2
     f1 = f2
     f2 = f
 
-print(f" {n}-dan katta fibonachchi soni qiymati {f2}")
+print(f" {f1} \n {f}")
